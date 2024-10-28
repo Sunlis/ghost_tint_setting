@@ -1,0 +1,13 @@
+{
+  "name": "ghost_tint_setting",
+  "version": "0.0.1",
+  "title": "Change ghost settings",
+  "author": "Sunlis",
+  "contact": "",
+  "homepage": "",
+  "description": "Change tints for ghost entities",
+  "factorio_version": "2.0",
+  "dependencies": [
+	  "base"
+	]
+}
