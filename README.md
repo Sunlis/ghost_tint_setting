@@ -1,8 +1,8 @@
 ### Ghost Tint Settings
 
-On startup, read user settings and override relevant constants that (partially) 
-control ghost entity display. Even with all settings set to grey, ghosts still 
-display with a blue tint.
+On startup, read user settings and override relevant constants that (partially?) control ghost entity display. Default ghost tint values can be found [here](https://github.com/wube/factorio-data/blob/master/core/prototypes/utility-constants.lua) (look for "ghost_tint" and "ghost_shimmer").
+
+I tried a few variants, but didn't manage to get any reasonable readability back.
 
 Examples:
 
