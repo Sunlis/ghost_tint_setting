@@ -1,16 +1,3 @@
--- require('utility-constants')
-
--- data:extend({
---   {
---     type = "utility-constants",
--- 		name = "ghost-tint",
--- 		ghost_tint = {118, 135, 209, 77},
---     ghost_tint_delivering = {168,214,196,77},
---     tile_ghost_tint = {46, 69, 145, 126},
---     tile_ghost_tint_delivering = {81, 140, 144, 126},
--- 	}
--- })
-
 data.raw["utility-constants"].default.ghost_tint = settings.startup["ghost-tint-setting-ghost_tint"].value
 data.raw["utility-constants"].default.ghost_tint_delivering = settings.startup["ghost-tint-setting-ghost_tint_delivering"].value
 data.raw["utility-constants"].default.tile_ghost_tint = settings.startup["ghost-tint-setting-tile_ghost_tint"].value

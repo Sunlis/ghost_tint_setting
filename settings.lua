@@ -1,5 +1,3 @@
--- require('data')
-
 data:extend({
   {
     type = "color-setting",
@@ -68,4 +66,3 @@ data:extend({
     default_value = {0, 255, 22, 130},
   },
 })
-
