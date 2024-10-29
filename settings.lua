@@ -65,4 +65,16 @@ data:extend({
     setting_type = "startup",
     default_value = {0, 255, 22, 130},
   },
+  {
+    type = "bool-setting",
+    name = "ghost-tint-setting-overlay_layers_enabled",
+    setting_type = "startup",
+    default_value = true,
+  },
+  {
+    type = "bool-setting",
+    name = "ghost-tint-setting-distortion_layers_enabled",
+    setting_type = "startup",
+    default_value = true,
+  },
 })
